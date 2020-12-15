@@ -70,7 +70,7 @@ from sklearn.tree import DecisionTreeClassifier
 #svm
 from sklearn.svm import SVC
 model = SVC()
-model = SVC(C=10,gamma = 10, kernerl='linear')
+model = SVC(C=10,gamma = 10, kernel='linear')
 
 #RandomForest
 from sklearn.ensemble import RandomForestClassifier
